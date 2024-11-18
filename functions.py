@@ -52,7 +52,7 @@ def find_second_largest(numbers):
     :param numbers: List of integers.
     :return: The second largest integer.
     """
-    return numbers[:-2] 
+    return numbers[-2] 
 
 def is_anagram(str1, str2):
     """
